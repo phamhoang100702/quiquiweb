@@ -1,0 +1,31 @@
+/* App container takes full height of the viewport */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+app-sidebar {
+  width: 150px;
+  background-color: #f8f9fa;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+app-header, app-footer {
+  background-color: #799bd1;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
